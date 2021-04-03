@@ -1,0 +1,5 @@
+TUTO HTML/CSS
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+
+JQUERY
+http://syddev.com/jquery.videoBG/demo_bg.html
