@@ -1,0 +1,211 @@
+ /*FICHIER STYLE.CSS PAR JULLIEN DALLIES*/
+/* Définition d'une nouvelle police nommée game_of_thronesregular */
+@font-face {
+    font-family: 'game_of_thronesregular';
+    src: url('../font/game_of_thrones-webfont.eot');
+    src: url('../font/game_of_thrones-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/game_of_thrones-webfont.woff2') format('woff2'),
+         url('../font/game_of_thrones-webfont.woff') format('woff'),
+         url('../font/game_of_thrones-webfont.ttf') format('truetype'),
+         url('../font/game_of_thrones-webfont.svg#game_of_thronesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* BALISES PRINCIPALES */
+* {
+	font-family: 'Lato', sans-serif;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+html {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+body {
+	background-image: url('../images/texture_bg.png');
+	background-repeat: repeat;
+}
+.wrap {
+	width: 960px;
+	margin: auto;
+}
+.got-font {
+	    font-family: 'game_of_thronesregular';
+	    font-weight: 100;
+	    letter-spacing: 1px;
+}
+.cb {
+	clear: both;
+}
+/*RESET CSS*/
+h1, h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+	display: inline-block;
+}
+/*HEADER*/
+header.main {
+	background-color: black;
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+h1 {
+	color: white;
+	font-size: 33px;
+	padding-top: 20px;
+}
+.got-font span{
+	font-family: 'game_of_thronesregular';
+	font-size: 80px; 
+}
+/*NAVIGATION*/
+nav {
+	float: right;
+	position: relative;
+	top: -7px;
+}
+nav li {
+	margin-right: 10px;
+}
+nav li.last {
+	margin-right: 0;
+}
+nav li a {
+	display: block;
+	height: 45px;
+	background-color: black;
+	transition: all 0.4s ease;
+}
+nav li a:hover {
+ 	height: 60px;
+}
+nav li a img {
+ 	position: relative;
+ 	top: 1px;
+ 	padding: 4px;
+ 	transition: all 0.4s ease;
+}
+nav li a:hover img {
+	top: 16px;
+}
+/*CONTENU PRINCIPAL*/
+#main-content {
+	position: relative;
+	top: 200px;
+}
+/*LES MAISONS*/
+article {
+	background-color: white;
+	/*MARGES INTERNES*/
+	padding: 10px;
+	margin-bottom: 20px;
+	/*REGLES GENERIQUES*/
+	min-height: 350px;
+	padding-right: 95px;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+header.article {
+	background-color: black;
+	padding: 5px;
+}
+h2 {
+	font-size: 18px;
+	line-height: 39px;
+}
+header.article .icone, img.blason {
+	float: left;
+	margin-right: 10px; 
+}
+header.article .icone {
+	height: 39px;
+}
+blockquote {
+	margin: 0;
+}
+.histoire {
+	text-align: justify;
+}
+article#stark {
+	background-image: url('../images/div_stark.jpg');
+}
+article#lannister {
+	background-image: url('../images/div_lannister.jpg');
+}
+article#baratheon {
+	background-image: url('../images/div_baratheon.jpg');
+}
+article#tyrell {
+	background-image: url('../images/div_tyrell.jpg');
+}
+article#martell {
+	background-image: url('../images/div_martell.jpg');
+}
+article#tully {
+	background-image: url('../images/div_tully.jpg');
+}
+article#arryn {
+	background-image: url('../images/div_arryn.jpg');
+}
+article#greyjoy {
+	background-image: url('../images/div_greyjoy.jpg');
+}
+article#targaryen {
+	background-image: url('../images/div_targaryen.jpg');
+}
+/*FOOTER*/
+footer.main {
+	width: 100%;
+	height: auto;
+	min-height: 205px;
+	background-image: url('../images/bandeau_footer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 20px;
+	position: relative;
+	top: 200px;
+}
+footer h4 {
+	color: white;
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+footer a {
+	color: white;
+}
+/*PAGE LE MONDE DE GOT*/
+h2.got-font span {
+	font-size: 26px;
+}
+img.fr {
+	float: right;
+	margin-left: 10px;
+}
+img.fl {
+	float: left;
+	margin-right: 10px;
+}
+/*A METTRE AU NIVEAU DE P.HISTOIRE L.140*/
+article#westeros, article#thewall p {
+	text-align: justify;
+}
