@@ -1,0 +1,123 @@
+html, body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #e2e2e2;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+}
+div.clear {clear: both;}
+/*BLOCS CONTENEURS*/
+div.spec {
+	width: 50%;
+	position: absolute;
+	top: 33%;
+	right: 5%;
+}
+div.lava {
+	width: 33%;
+	height: auto;
+	float: right;
+	position: relative;
+	right: 5%;
+	padding: 2%;
+    background-color: #fcfcfc;
+    color: #666;
+}
+article.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+article.bloc {
+	width: 33%;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 2%;
+    padding: 1%;
+    background-color: #fcfcfc;
+    color: #666;
+}
+#box-left {
+	position: fixed;
+	top: 9%;
+	margin: auto;
+	right: 0;
+	left: inherit;
+	width: 33%;
+	height: auto;	
+	padding: 2%;
+	background-color: #fcfcfc;
+	z-index: 6;
+	float: none;
+}
+#box-left img {
+	float: left;
+	margin-right: 5%;
+}
+/*CONTENU TITRES ET ELEMENTS*/
+div.spec h2 {
+	font-size: 3rem;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+article.bloc h4 {
+	margin-bottom: 0;
+	color: #333;
+}
+article.bloc h2 {
+	font-size: 2.2rem;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #000;
+}
+article.bloc p {
+	margin-bottom: 0;
+	color: #333;
+}
+div.lava h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000;
+}
+div.lava p {margin-bottom: 0}
+div.lava h2 strong {color:#eb0028;}
+article.flex h3 {font-size: 1.3rem;}
+article.flex h4 {
+	font-size: 1rem;
+	font-weight: normal;
+}
+/*IMG BG*/
+#section1 {
+	background: url("../img/oneplus_phone_5t.jpg") center -50px no-repeat fixed;
+	background-size: cover;
+	min-height: 960px;
+}
+#section2 {
+	background: url("../img/oneplus_phone_5t.png") center -50px no-repeat fixed;
+	background-size: cover;
+	min-height: 960px;
+}
+#section3 {
+	background: url(../img/oneplus_phone.jpg) no-repeat top center;
+	background-size: cover;
+	height: 680px;
+	width: 100%;
+    position: relative;
+    z-index: 5;
+}
+/*IMAGES*/
+section.aos div img {width: 100%; height: auto;}
+/*FOOTER*/
+footer {
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 1%;
+	width: 100%;
+	height: 8%;
+	background-color: #464646;
+	color: #c1c1c1;
+}
+a {	color: #fff;}
