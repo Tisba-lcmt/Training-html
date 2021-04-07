@@ -1,0 +1,18 @@
+Projet WEB LIVRABLES :
+
+Le sujet de ce projet web est de mettre en application les règles de création de site internet vues en cours.
+
+Vous devez choisir un sujet (par exemple artiste, jeux vidéo, sport, film ou série...) et créer une page web avec les éléments suivants :
+- 1 entête de page avec le nom du sujet et une illustration.
+- 1 navigation pour atteindre les différentes sections ou des pages supplémentaires
+- 3 sections au choix (par exemple biographie / fiche technique / synopsis / parcours...)
+- 1 pied de page avec le copyright et la partie contact.
+
+
+Votre page doit comporter des liens vers des ancres nommées et des liens externes (URLs spécifiques).
+Vous devez charger 2 polices de caractère depuis Googlefont (une pour les titrages et une pour les paragraphes et liens).
+Votre dossier de rendu doit être organisé (nom dossier img, js et css) et nommé à votre nom, prénom et groupe.
+Votre page HTML doit être commentée et bien organisée.
+Vous devez charger votre fichier CSS afin d'appliquer votre design et mise en page.
+
+Les critères de notation prendront en compte le respect de ces consignes, les spécifications techniques apportées, la quantité et qualité de travail.
