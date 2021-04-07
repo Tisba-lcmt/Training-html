@@ -1,0 +1,270 @@
+/*font-family: 'Irish Grover', cursive;
+font-family: 'Poppins', sans-serif;*/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: #fbfbfb;
+/*FONT*/
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+}
+.cb {
+	clear: both;
+}
+
+/*HEADER*/
+header {
+	background-color: rgba(0,0,0,0.95);
+	height: 60px;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 10px;
+}
+header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*TITRAGES*/
+header h1 {
+	font-family: 'Irish Grover', cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0 4em;
+	display: inline-block;
+	color: white;
+}
+h2.umbrella-title,#serie h3.umbrella-title {
+    font-family: 'Irish Grover', cursive;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: rgba(255,255,255,0.89);
+    line-height: 1.5;
+    margin-top: 0;
+    text-align: center;	
+}
+h2.umbrella-title:before, h2.umbrella-title:after,
+#serie h3.umbrella-title:before, #serie h3.umbrella-title:after {
+    content: '';
+    display: block;
+    width: 29px;
+    height: 30px;
+    float: left;
+    background: url(../img/umbrella.png) no-repeat left;
+    position: relative;
+    top: 10px;
+}
+h2.umbrella-title:before,
+#serie h3.umbrella-title:before {
+	margin-left: 10%;	
+}
+h2.umbrella-title:after,
+#serie h3.umbrella-title:after {
+	transform:scaleX(-1);
+	float: right;
+	margin-right: 10%;	
+}
+/*NAVIGATION*/
+header nav {
+	display: inline-block;
+}
+header nav li {
+	display: inline-block;
+	width: 180px;
+    border-right: 3px solid #dcdcdc;
+    margin-right: 20px;
+    transition: all 0.4s ease;
+}
+header nav a {
+	display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dcdcdc;
+    transition: all 0.4s ease;
+}
+header nav li a:after {
+	content: '';
+	display: block;
+	width: 0%;
+	height: 3px;
+    background-color: rgba(255,255,255,0);
+    transition: all 0.4s ease;
+}
+header nav li:hover {
+	border-right: 3px solid #fff;
+}
+header nav li:hover a {
+	color: white;
+}
+header nav li:hover a:after {
+    background-color: rgba(255,255,255,1);
+    width: 100%;
+}
+main {
+    position: relative;
+    top: 70px;
+    margin-bottom: 140px;
+}
+/*SECTION COMICS*/
+section#comic {
+	background-image: url('../img/enfants-adultes-umbrella.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	min-height: 600px;
+}
+section#comic aside, section#comic article {
+	margin: auto;
+	padding: 1%;
+	float: left;
+}
+section#comic aside {
+	width: 33%;
+}
+section#comic article {
+	width: 20%;
+}
+section#comic aside img {
+	width: 300px;
+	height: auto;
+	float: right;
+}
+/*SECTION PARALLAX*/
+
+/*PARALLAX CONTAINER*/
+#parallax-container {
+	display: block;
+	height: 360px;
+}
+#parallax-container div {
+	background-position: center !important;
+	transform: translateY(0);
+	height: 360px;
+	width: 960px;
+	margin: auto;
+	transition: all 0.4s ease;	
+}
+/*CHILDS LAYERS*/
+.layer-0 {
+  background-image: url('../img/umbrella-enfants.png');
+  background-repeat: no-repeat;
+}
+.layer-1 {
+  background-image: url('../img/umbrella-n4.png');
+  background-repeat: no-repeat;
+}
+/*SECTION PERSONNAGES*/
+section#personnages {
+	background-image: url('../img/bg_bd02.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+article.perso, p.remarque {
+    min-height: 140px;
+    max-width: 62.5%;
+    padding: 10px;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+article.perso.childs {
+	max-width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 3%;	
+}
+article.autres-perso {
+	margin: auto;
+	margin-bottom: 20px;	
+}
+article.autres-perso img {
+	margin-bottom: 10px;
+}
+article.perso img {
+	border-radius: 50%;
+}
+article.perso img.chacha {
+	float: right;	
+}
+article.perso h4.chacha {
+	margin-right: 135px;	
+}
+p.remarque {
+	min-height: auto;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+}
+article.perso img {
+	float: left;
+	margin-right: 10px;
+}
+article.perso h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    margin-left: 135px;
+    padding: 5px;
+}
+/*SECTION ARCADE*/
+section#arcade {
+	min-width: 960px;
+	height: 360px;
+	background: url('../img/umbrella-academy-comics.jpg') bottom center no-repeat fixed;
+	background-size: contain;
+}
+/*SECTION SERIE*/
+section#serie {
+		width: 960px;	
+		margin: auto;	
+}
+section#serie img {
+	float: left;
+	width: 185px;	
+	border-radius: 10%;
+	margin-right: 20px;	
+	margin-bottom: 20px;
+}
+/*FOOTER*/
+footer {
+    background-color: black;
+    max-height: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: white;
+    text-align: center;	
+}
+/*RETOUR EN HAUT*/
+#return-top {
+    float: right;
+    position: relative;
+    bottom: 255px;
+    right: 55px;
+}
+#deco-footer {
+    float: left;
+    position: relative;
+    bottom: 322px;
+}
+#return-top img {
+	width: 333px;
+	height: auto;	
+}
+/*DECO FOOTER*/
+#deco-footer img {
+	width: 222px;
+	height: auto;
+}
