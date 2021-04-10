@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+}
+header {
+    background-image: url(../img/bonbon1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+nav {
+    background-color: rgba(243,177,179,0.9);
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.liens {
+    display: inline-block;
+    width: 7vw;
+}
+#liensfooter {
+    margin-left: 17%;
+}
+.liste_top {
+    width: 100%;
+}
+.liste_bottom,.logoFooter {
+    display: inline-block;
+    width: 30%;
+}
+
+.logoFooter{
+    width: 5%;
+    margin-left: 17%;
+}
+#lien1 {
+    margin-left: 60%;
+}
+.bouton {
+    width: 270px;
+    margin: 65vh auto 0;
+    background-color: pink;
+    color : white;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 40px;
+}
+span {
+    font-size: 1.4em;
+}
+main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+section{
+    width: 80vw;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 600;
+    color: #ff009a;
+    text-align: center;
+}
+h2, h3 {
+    color: pink;
+}
+h2 {
+    font-weight: 600;
+    text-align: center;
+}
+h3 {
+    font-weight: 600;
+}
+.image1,.texte1,.image2,.texte2 {
+    display: inline-block;
+}
+p {
+    color: #73BAF0;
+}
+.image1, .image2, .texte1, .texte2{
+    width: 30%;
+    margin: 30px;
+}
+.image1 {
+    margin-left: 15%;
+}
+.texte2 {
+    margin-left: 15%;
+}
+a {
+    margin: 100% 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
