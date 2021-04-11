@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resp {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/*** header ***/
+
+header {
+    height: 100vh;
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header>nav {
+    background-color: rgba(255, 121, 121, 0.7);
+}
+
+header>nav ul {
+    width: 40%;
+}
+
+header>nav li {
+    width: 20%;
+    font-size: 2em;
+}
+
+.logo {
+    width: 10%;
+}
+
+.bouton {
+    width: 300px;
+    padding: 20px 10px;
+    color: white;
+    font-size: 2em;
+    background-color: pink;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/*** main ***/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px
+}
+
+h1,
+h2 {
+    text-align: center
+}
+
+h1,
+h2 {
+    color: darkorchid;
+    margin: 30px 0;
+}
+
+h2 {
+    color: pink;
+}
+
+.imgMain {
+    width: 40%;
+}
+
+article {
+    width: 55%;
+}
+
+article h3 {
+    font-size: 1.5em;
+    color: pink;
+    margin-bottom: 30px;
+}
+
+article p {
+    color: turquoise;
+}
+
+
+/*** footer ***/
+
+footer {
+    background-color: pink;
+    padding: 20px 0;
+}
+
+footer .ext {
+    width: 10%;
+    font-size: 1.3em;
+}
+
+.imgRes {
+    width: 20%;
+}
+@media screen and (max-width: 800px){
+    .none {
+        display: none;
+    }
+    /* header>nav div{
+        justify-content: space-around;
+    } */
+    #menu li {
+        background-color: white;
+        height: 0.5vh;
+        width: 10vw;
+        margin: 2vh;
+        list-style-type: none;
+    }
+    main>.block {
+        display: block;
+    }
+    main> div article {
+        margin-top: 4vh;
+        width: 100%;
+    }
+    .imgMain {
+        width: 100%;
+    }
+    footer .ext {
+        width: 50%;
+    }
+}   
