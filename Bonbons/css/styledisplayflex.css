@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(/img/bonbon1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav {
+    width: 100%;
+    background-color: rgba(243,177,179,0.9);
+}
+ul {
+    height: 22vh;
+}
+li {
+    width: 100%;
+}
+.logo {
+    width: 30%;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.lien {
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
