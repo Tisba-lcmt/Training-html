@@ -1,0 +1,40 @@
+/* position */
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+/* Structure */
+.corps {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.rond {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Couleur */
+
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+section {
+    width: 100%;
+    height: 8%;
+}
+.ligne{
+    border: solid 2px turquoise;
+}
+.cls {
+    clear: both;
+}
