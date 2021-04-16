@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Crash-a-Like';
+    src:url('../font/webfonts_Crash-a-Like/Crash-a-Like.ttf.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* FONCTIONS */
+.cls {
+    clear: both;
+}
+
+/* PARTIE HEADER */
+header {
+    background-image: url(../img/photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+
+/* DIV Logo + BURGER */
+.boxlogo {
+    width: 60%;
+    margin-left: 40%;
+}
+.boximg {
+    width: 60%;
+    float: left;
+}
+.img {
+    width: 100%;   
+}
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(206, 146, 49);
+    padding: 0;
+    margin: 6px 0;
+}
+.icon {
+    float: right;
+    list-style-type: none;
+}
+
+/* BOUTON */
+.bouton {
+    width: 200px;
+    margin: 30vh 0 0 2vw;
+    background-color: rgb(255, 233, 62);
+    color : white;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    border: solid 3px  rgb(206, 146, 49);
+}
+span {
+    font-size: 1.2em;
+}
+/* MAIN */ 
+main {
+    width: 100%;
+    height: auto;
+}
+/* SECTION 1 */
+section {
+    width: 100%;
+}
+#sect1 {
+    border: solid 2px red;
+}
+article {
+    width: 30%;
+    float: right;
+}
+.photo2 {
+    width: 10%;
+}
+#img2g {
+    float: right;
+}
+#img2d {
+    float: right;
+}
+/* TYPOGRAPHIE */
+h1, h2 {
+    font-family: 'Crash-a-Like',sans-serif;
+    color: rgb(206, 146, 49);
+}
+article>h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+article>p {
+    margin: 20px 30px;
+    color: rgb(56, 128, 186);
+}
