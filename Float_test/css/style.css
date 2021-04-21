@@ -1,0 +1,58 @@
+.carre {
+    height: 100px; 
+    width: 100px;
+}
+.rond {
+    height: 100px; 
+    width: 100px;
+    border-radius: 50%;
+}
+.cls {
+    clear: both;
+}
+.bleu {
+    background-color: turquoise; 
+    /* transition: all 1s ease; */   /*all:attribution propriete css  et ease:cubic-beziers*/
+}
+.bleu {
+    background-color: black;
+}
+.rouge {
+    background-color: red;
+}
+.jaune {
+    background-color: yellow;
+}
+.violet {
+    background-color: violet;
+    border-radius: 10px;
+}
+.gauche {
+    float: left;
+}
+.droite {
+    float: right;
+}
+.margeDroite {
+    margin-right: 25px;
+}
+.margeGauche {
+    margin-left: 25px;
+}
+.section {
+    margin: 10px auto;
+    height: 100px;
+    border: solid 2px black;
+}
+#ligne1 {
+   width: 475px;
+}
+#ligne2 {   
+    width: 350px;
+}
+#ligne3 {
+    width: 225px;
+}
+#ligne4 { 
+    width: 100px;
+}
