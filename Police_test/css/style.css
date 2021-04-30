@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "design";
+    src: url("../font//caviar_dreams/CaviarDreams_Bold.ttf");
+}
+
+p {
+    font-family: "design", sans-serif;
+}
