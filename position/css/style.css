@@ -1,0 +1,43 @@
+.carre {
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    margin: 0 auto;
+}
+.rond {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#white {
+    top: 50px;
+    left: 50px;
+    background-color: white;
+}
+#green {
+    top: 50px;
+    right: 50px;
+    background-color: green;
+}
+#black {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+}
+#violet {
+    bottom: 50px;
+    left: 50px;
+    background-color: violet;
+}
+#blue {
+    bottom: 50px;
+    right: 50px;
+    background-color: blue;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
