@@ -1,0 +1,51 @@
+/* GENERAL */
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    bottom: 0;
+}
+/* HEADER */
+header{
+    background-image: url("../img/tigre.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+header>article {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+/* TYPOGRAPHIE */
+ul>li a, h2, p {
+    color: white;
+}
+#topli {
+    font-size: 1.2em;
+}
+#topli li a:hover {
+    color: black;
+}
+.div>h2 {
+    font-size: 1.8em;
+}
+div>p {
+    font-size: 1em;
+}
+.article>h2, article>p {
+    color: black;
+}
+
+/* MAIN */
+#bannergreen {
+    background-color: rgb(151, 211, 91);
+}
+
+/* Footer */
+#bannergrey {
+    background-color: rgb(92, 88, 88);
+}
